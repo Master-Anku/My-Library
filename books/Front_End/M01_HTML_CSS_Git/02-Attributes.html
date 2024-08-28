@@ -1,57 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz with Timer</title>
-    <link rel="stylesheet" href="../../../css/quiz.css" />
-  </head>
-  <body>
-    <div id="start-container">
-      <h2>Welcome to the Quiz!</h2>
-      <input
-        type="text"
-        id="username"
-        placeholder="Enter your name"
-        onfocus="clearPlaceholder(this)"
-      />
-      <button onclick="startQuiz()">Start Quiz</button>
-    </div>
-
-    <div class="quiz-container" id="quiz-container" style="display: none">
-      <div id="timer">Time Left: <span id="time">36</span> seconds</div>
-      <div id="question"></div>
-      <div class="options"></div>
-      <button id="next-question" onclick="checkAnswer()">Submit</button>
-      <div id="feedback"></div>
-    </div>
-
-    <div id="result-container" style="display: none">
-      <h2>Quiz Result</h2>
-      <div id="result"></div>
-      <button id="test-again" onclick="testAgain()">Test Again</button>
-    </div>
-
-    <!-- Store questions in a script tag with type="application/json" -->
-  <script id="questions-data" type="application/json">
-    [
-      {
-        "question": "What is the capital of France?",
-        "options": ["Paris", "Berlin", "Rome", "Madrid"],
-        "answer": "Paris"
-      },
-      {
-        "question": "Which planet is known as the Red Planet?",
-        "options": ["Mars", "Earth", "Jupiter", "Saturn"],
-        "answer": "Mars"
-      },
-      {
-        "question": "What is the largest ocean on Earth?",
-        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-        "answer": "Pacific Ocean"
-      }
-    ]
-  </script>
-    <script src="../../../js/quiz.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes </title>
+    <link rel="stylesheet" href="./MyCss/attributes.css">
+</head>
+<body>
+        <!-- Site Header -->
+        <header class="header">
+          <!--The h1 tag should be used for the most important heading-->
+          <h1>Student Bio</h1>
+        </header>
+    
+        <!-- Section 1: Bio -->
+        <section class="section">
+          <h2>Master Anku</h2>
+          <!-- Image -->
+          <img src="./images/anku.png" alt="master Anku">
+          <!-- Paragraph with embedded link -->
+          <p style="font-size: 1.2rem;">ကျွန်တော်က ပရိုဂရမ်းမင်း  ပညာကို လေ့လာနေပါတယ်။ <br>
+            Html Css Javascript( Front-End) ကို  လေ့လာသင်ယူပီးပါပီ။ <br>
+            ပရိုဂရမ်းမင်းကို စိတ်ဝင်စားလို့ လေ့လာသင်ယူချင်သူများကို မိမိအနေနဲ့ အမြဲတမ်း ကြိုဆိုပါတယ်ခင်ဗျာ။ <br>
+            စိတ်ဝင်စားရင် အောက်ပါ လင့်တွေကနေတဆင့် ဆတ်သွယ်မေးမြန်းနိုင်ပါတယ်ခင်ဗျာ။ <br>
+          </p>
+        </section>
+    
+        <!-- Section 2: Contact Info -->
+        <section class="section">
+          <h2>Contact Info</h2>
+          <!-- Unordered list -->
+          <ul>
+            <li id="email"><strong>Email:</strong> <a href="mailto:https://ankumaster1@gmail.com">ankumaster1</a></li>
+            <li id="github"><strong>Github:</strong> <a href="https://github.com/Master-Anku/Module-1">Master-Anku</a></li>
+            <li id="facebook"><strong>FaceBook:</strong> <a href="https://www.facebook.com/profile.php?id=61556868394234&mibextid=ZbWKwL">Ashin Ankura</a></li>
+          </ul>
+        </section>
+</body>
 </html>

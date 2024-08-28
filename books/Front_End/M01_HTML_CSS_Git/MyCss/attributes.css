@@ -1,3 +1,30 @@
-h1{
-    color: red;
+/* Class Attributes */
+.header {
+    background-color: aqua;
+}
+
+.section {
+    background-color: bisque;
+}
+
+.section h2 {
+    background-color: #03a9f4;
+}
+
+
+/* image width */
+img {
+    width: 200px;
+}
+
+
+/* ID Attributes */ 
+#email {
+    background-color: rgb(86, 237, 237);
+}
+#github {
+    background-color: rgb(209, 232, 103);
+}
+#facebook {
+    background-color: rgb(161, 182, 185);
 }
