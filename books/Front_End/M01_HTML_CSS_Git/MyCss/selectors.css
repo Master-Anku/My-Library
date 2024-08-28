@@ -1,0 +1,40 @@
+/* Class Attributes */
+.header {
+    background-color: aqua;
+}
+
+.section {
+    background-color: bisque;
+}
+
+.section h2 {
+    background-color: #03a9f4;
+}
+
+.highlighted-text {
+    background-color: aliceblue;
+}
+/* image width */
+img {
+    width: 200px;
+}
+/* ID Attributes */
+#contact-section {
+    background-color: aliceblue;
+}
+#email {
+    background-color: rgb(86, 237, 237);
+}
+#github {
+    background-color: rgb(209, 232, 103);
+}
+#facebook {
+    background-color: rgb(196, 22, 240);
+}
+/* footer */
+footer {
+    background-color:rgb(147 147 215);
+    padding: 20px;
+    font-size: 25px;
+    color: whitesmoke;
+}
