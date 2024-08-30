@@ -1,0 +1,113 @@
+:root {
+   --bgcolor:white;
+   --first:rgb(11, 147, 115);
+   --sectory:black;
+   --thirt:rgb(73, 73, 231);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:var(--bgcolor);
+}
+
+/* header start */
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--first);
+    padding: 20px 0;
+}
+.header span {
+    color: gold;
+}
+h1{
+    padding-left: 3%;
+}
+
+nav, ul, li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin: 5px;
+}
+
+nav, ul, li, a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--sectory);
+}
+
+/* header end */
+
+/* hero statr*/
+.hero{
+    background-image: url(../imges/challenge-images/wp4190763.webp);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.hero h2{
+    text-align: center;
+    padding-top: 5%;
+}
+/* hero end */
+
+/* about section */
+.about {
+    display: flex;
+    justify-content: space-between;
+    /* width: 80%; */
+    padding: 5% 5%;
+    margin: 0 5%;
+}
+/* Card */
+.card img{
+    width: 300px;
+}
+.card{
+    /* width: 40%; */
+    border: 2px solid #3d3b2b;
+    padding: 7px;
+    margin: 3px;
+    background-color: var(--first);
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card button :hover {
+    border-radius: 20%;
+    background-color:black;
+}
+.card button a{
+    color: var(--bgcolor);
+    background-color: var(--first);
+    /* border-radius: 10%; */
+}
+
+/* card end */
+
+footer {
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    background-color: var(--sectory);
+    color: var(--bgcolor);
+    padding: 25px 0;
+
+}
+.contactme {
+    display: flex;
+    justify-content: center;
+}
+.contactme li a{
+    color: var(--bgcolor);
+    text-decoration: none;
+}
