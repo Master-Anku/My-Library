@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "10-Quiz.html",
       ],
       M03_JavaScript: [
-        "01-HTML.html",
+        "01-Conditional.html",
         "02-Attributes.html",
         "03-CSS-Selectors.html",
         "04-Box-Model.html",
