@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    margin: 25px auto;
+}
+
+.box {
+    display: block;
+    float: left;
+    width: 31%;
+    height: 200px;
+    margin: 1%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #123bbe;
+    text-align: center;
+    line-height: 200px;
+    font-size: 150px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px gold;
+    color: rgb(235, 229, 229);
+}
+ 

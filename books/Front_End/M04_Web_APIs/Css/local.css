@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --first-color: rgb(213, 213, 235);
+    --two-color:rgb(53, 50, 220);
+    --three-color:rgb(96, 209, 207);
+    --bg-color:rgb(216, 211, 211);
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container {
+    /* text-align: center; */
+    border: 3px solid blueviolet;
+    /* display: inline-block; */
+    background-color: #3fb0a4;
+    /* background-image: url(./image/Designer\ \(4\).jpeg); */
+    width: 800px;
+
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label {
+    /* color: yellow; */
+    font-weight: bold;
+}
+input {
+    width: 90%;
+    margin: 0;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    padding: 1rem;
+    font-size: 25px;
+    /* font-weight: bold; */
+    border-radius: 1rem;
+}
+
+.card {
+    display: block;
+    margin: 40px auto;
+    padding: 20px;
+   
+}
+
+button {
+    background-color:#f06ae9;
+    border-radius: 16px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    padding: 10px 22px;
+    float: right;
+  }
+  
