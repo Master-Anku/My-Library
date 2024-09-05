@@ -9,10 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
       Sangaha: ["သင်္ဂြိုဟ်.html", "ညဝါ.html", "recording.html", "quiz.html"],
       Readings: ["lesson.html", "recording.html", "quiz.html"],
     },
-    သီလက္ခန်: {
-      book2a: ["lesson.html", "recording.html", "quiz.html"],
-      book2b: ["lesson.html", "recording.html", "quiz.html"],
-    },
     ပထမဆင့်: {
       Grammar: ["lesson.html", "recording.html", "quiz.html"],
       Sangaha: ["သင်္ဂြိုဟ်.html", "ညဝါ.html", "recording.html", "quiz.html"],
