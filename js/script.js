@@ -72,9 +72,9 @@ document.addEventListener("DOMContentLoaded", () => {
         "11-Quiz.html",
       ],
       M05_Third_Party_APIs: [
-        "01-HTML.html",
-        "02-Attributes.html",
-        "03-CSS-Selectors.html",
+        "01-Click-Event.html",
+        "02-Delegation.html",
+        "03-Bootstrap.html",
         "04-Box-Model.html",
         "05-CSS-Positioning.html",
         "06-Git-Guide.html",
