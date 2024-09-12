@@ -4,11 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const MAX_FILES = 1;
 
   const folderStructure = {
-    မူလတန်း: {
-      Grammar: ["lesson.html", "recording.html", "quiz.html"],
-      Sangaha: ["သင်္ဂြိုဟ်.html", "ညဝါ.html", "recording.html", "quiz.html"],
-      Readings: ["lesson.html", "recording.html", "quiz.html"],
-    },
     ပထမဆင့်: {
       Grammar: ["lesson.html", "recording.html", "quiz.html"],
       Sangaha: ["သင်္ဂြိုဟ်.html", "ညဝါ.html", "recording.html", "quiz.html"],
