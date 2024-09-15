@@ -1,20 +1,20 @@
-var tasks = {};
+var tasks = {};  // ToDo[] In[] In Rev[] Done[]
 
 var createTask = function(taskText, taskDate, taskList) {
   // create elements that make up a task item
   var taskLi = $("<li>").addClass("list-group-item");
   var taskSpan = $("<span>")
     .addClass("badge badge-primary badge-pill")
-    .text(taskDate);
+    .text(taskDate); // 15.9.2024
   var taskP = $("<p>")
     .addClass("m-1")
-    .text(taskText);
+    .text(taskText); // app
 
   // append span and p element to parent li
   taskLi.append(taskSpan, taskP);
 
   // check due date
-  auditTask(taskLi);
+  auditTask(taskLi); //50
 
   // append to ul list on the page
   $("#list-" + taskList).append(taskLi);
@@ -42,11 +42,12 @@ var loadTasks = function() {
   });
 };
 
+// localStorage set
 var saveTasks = function() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 };
 
-var auditTask = function(taskEl) {
+var auditTask = function(taskEl) {  //17
   // get date from task element
   var date = $(taskEl)
     .find("span")

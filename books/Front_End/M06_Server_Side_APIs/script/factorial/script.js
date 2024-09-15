@@ -10,7 +10,7 @@ var factorial = function(num) {
     return result;
   };
 
-  
+  console.log(factorial(5));
   /*
       •	The factorial function uses a loop to compute the factorial of a given number by multiplying the number down to 2.
       •	The loop stops at i = 2 because multiplying by 1 doesn’t change the result.

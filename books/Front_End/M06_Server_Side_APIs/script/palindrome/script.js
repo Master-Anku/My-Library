@@ -13,6 +13,8 @@ var isPalindrome = function(str) {
     }
   };
   
+  console.log(isPalindrome("level"));
+  console.log(isPalindrome("hello"));
   // isPalindrome("racecar"); //true
   // isPalindrome("madam"); //true
   // isPalindrome("level"); //true

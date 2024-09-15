@@ -21,3 +21,4 @@ var titleCase = function(str) {
   
   titleCase("hello world");
   
+console.log(titleCase("hello word myanmar"))
