@@ -1,28 +1,28 @@
 let questions = [
     {
-      question: "HTMLကို ဘယ်လိုရေးလဲ။",
-      options: ["html", "hmlt", "htlm", "mhtl"],
-      answer: "html",
+      question: "responsive ဆိုတာဘာလဲ",
+      options: ["phone", "computer", "dasktop"],
+      answer: "phone",
     },
     {
-      question: "<h1></h1> tag က ဘယ်နေရာမှာ ရေးလဲ။",
-      options: ["ကြိုက်တဲ့နေရာ", "အဆင်ပြေဖို့", "ခေါင်းစဉ်မှန်းသိနိုင်ဖို့", "လိုအပ်လို့"],
-      answer: "ခေါင်းစဉ်မှန်းသိနိုင်ဖို့",
+      question: "wireframing ဆိုတာဘာလဲ။",
+      options: ["အကြိုဒီဇိုင်းဆွဲ", "မလိုအပ်", "ရေးချင်လို့"],
+      answer: "အကြိုဒီဇိုင်းဆွဲ",
     },
     {
-      question: "h2 နဲ့ ရေးပီး  h1 နဲ့ ထပ်ရေးသင့်လား။",
-      options: ["ရေးသင့်", "မရေးသင့်", "အဆင်ပြေတယ်", "မကောင်းပါ"],
-      answer: "မရေးသင့်",
+      question: "Pseudo classဆိုတာဘာလဲ။",
+      options: ["class", "id", "not"],
+      answer: "class",
     },
     {
-      question: "အဖ္ငင့်ပါပီး အပိတ်မပါသော tag များ ",
-      options: ["p", "div", "img", "h6"],
-      answer: "img",
+      question: "Variables ဆိုတာဘာလဲ။ ",
+      options: ["global", "test", "img"],
+      answer: "global",
     },
     {
-        question: "မှန်ကန်သော p tag ကို ရွေးပြပါ။",
-        options: ["<p><p/>", "</p><p>", "<p><p/>", "<p>"],
-        answer: "<p><p/>",
+        question: "idရဲ့ သင်္ကေတကို ေရွးပြပါ",
+        options: [".", "#", "id", ""],
+        answer: "#",
       },
   ];
   
